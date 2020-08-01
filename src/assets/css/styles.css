@@ -1,0 +1,71 @@
+@import "./reset.css";
+
+.header {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+}
+
+.header .header__col1 {
+  width: 150px;
+  height: 100%;
+
+  background-color: #b2ebf2;
+}
+
+.header .header__col2 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #eee;
+}
+
+.main {
+  width: 100%;
+  height: 800px;
+
+  background-color: wheat;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.main .main__col1 {
+  width: 100px;
+  height: 100%;
+  background: yellow;
+}
+
+.main .main__col2 {
+  width: 100%;
+  height: 100%;
+  background: seashell;
+}
+.main .main__col3 {
+  width: 100px;
+  height: 100%;
+  background: skyblue;
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .footer__col1 {
+  width: 50%;
+  height: 100%;
+  background: slateblue;
+}
+
+.footer .footer__col2 {
+  width: 50%;
+  height: 100%;
+  background: slategray;
+}
